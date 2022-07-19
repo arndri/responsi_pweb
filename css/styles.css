@@ -1,0 +1,133 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+
+#title{
+  position: relative;
+  text-align: left;
+}
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  background-color: #c82e29;
+}
+
+#pricing{
+  padding:100px 100px 0 100px;
+}
+
+#booking{
+  padding: 200px;
+}
+
+
+#footer{
+  margin: 3%
+}
+
+.colored-section{
+  background-color: #0d196c;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+
+}
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.fa-5x{
+  color: #c82e29;
+}
+
+.fa-5x:hover{
+  color: #e24c3b;
+}
+
+.testimonials-img{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media(max-width:1800px){
+
+  #title{
+    text-align: center;
+  }
+}
+
+.get{
+  padding-top: 10%;
+  font-size: 3.5rem;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.quotes{
+  width: 60%;
+}
+
+.social-media a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-primary:hover{
+  background-color: #c82e29;
+}
